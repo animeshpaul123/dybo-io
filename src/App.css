@@ -44,7 +44,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  
+  overflow: hidden;
 }
 .alert-wrapper {
   max-width: 600px;
