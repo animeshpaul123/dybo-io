@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/dybo-io/static/css/main.6224cc1e.chunk.css",
+    "main.js": "/dybo-io/static/js/main.02c3a4f9.chunk.js",
+    "main.js.map": "/dybo-io/static/js/main.02c3a4f9.chunk.js.map",
+    "runtime-main.js": "/dybo-io/static/js/runtime-main.a9b5d826.js",
+    "runtime-main.js.map": "/dybo-io/static/js/runtime-main.a9b5d826.js.map",
+    "static/js/2.a3c3b067.chunk.js": "/dybo-io/static/js/2.a3c3b067.chunk.js",
+    "static/js/2.a3c3b067.chunk.js.map": "/dybo-io/static/js/2.a3c3b067.chunk.js.map",
+    "index.html": "/dybo-io/index.html",
+    "static/css/main.6224cc1e.chunk.css.map": "/dybo-io/static/css/main.6224cc1e.chunk.css.map",
+    "static/js/2.a3c3b067.chunk.js.LICENSE.txt": "/dybo-io/static/js/2.a3c3b067.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a9b5d826.js",
+    "static/js/2.a3c3b067.chunk.js",
+    "static/css/main.6224cc1e.chunk.css",
+    "static/js/main.02c3a4f9.chunk.js"
+  ]
+}
