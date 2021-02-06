@@ -36,3 +36,68 @@
     transform: rotate(360deg);
   }
 }
+/* Animesh styles */
+.page-wrapper {
+  width: 100%;
+  height: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.alert-wrapper {
+  max-width: 600px;
+  position: absolute;
+  top: 30px;
+  left: 50%;
+  right: 50%;
+  transform: translateX(-50%);
+  padding: 10px;
+  width: 100%;
+  animation: slideIn 3s ease-in-out both;
+animation-iteration-count: 1;
+}
+.alert {
+  background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.3));
+  border-radius: 12px;
+  box-shadow: 0px 0px 10px rgb(0 0 0 / 4%);
+  width: 100%;
+  min-height: 40px;
+  backdrop-filter: blur(1.5rem);
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.close {
+position: absolute;
+right: 0;
+top: 0;
+width: 20px;
+height: 20px;
+border-radius: 50%;
+background: #ffffffd6;
+}
+@keyframes slideIn {
+  0% {
+    transform: translate(-50%,-40px);
+  }
+  10% {
+    transform: translate(-50%,0);
+  }
+}
+.links {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  top: 0;
+  padding: 5px;
+}
+.links a {
+  color: #000;
+  background: #ffffff99;
+  text-decoration: none;
+  padding: 3px 10px;
+  border-radius: 3px;
+}

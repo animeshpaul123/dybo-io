@@ -1,23 +1,16 @@
-import logo from './logo.svg';
+import { Redirect, Route } from 'react-router-dom';
 import './App.css';
-
+import Desert from './pages/desert';
+import Forest from './pages/forest';
+import Ocean from './pages/ocean';
+import { primaryColors } from './colorUtility'
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Route path="/forest/register" render={() => <Forest {...primaryColors} />} />
+      <Route path="/ocean/register" render={() => <Ocean {...primaryColors} />} />
+      <Route path="/desert/register" render={() => <Desert {...primaryColors} />} />
+      <Redirect from="/" to="/forest/register" />
     </div>
   );
 }
